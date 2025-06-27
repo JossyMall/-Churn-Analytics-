@@ -3,7 +3,7 @@ SaaS software built with pure PHP, Javascript and SQL to launch an AI powered ch
 
  ## (This software is not ready for production, please contact me on livejossymall@gmail.com or +79644165577 on whatsapp for clarifications, installation and custom development)
 
-![API feature churn analytics](Screenshot 2025-06-27 200319.png "Churn Analytics")
+![Admin dashboard churn analytics](1.png "Churn Analytics")
 
 # 🚀 Churn Analytics Pro: Comprehensive Project Documentation
 ✨ Abstract: Revolutionizing Customer Retention in the Digital Age
