@@ -236,6 +236,8 @@ How it works: Users define custom cohorts (groups/segments) for their third-part
 
 Relevance: Enables granular segmentation of customers for targeted analysis and personalized retention strategies, allowing businesses to understand and optimize the value of different customer groups.
 
+![dashboard churn analytics](dashboard.png "Churn Analytics")
+
 # 9.2 Feature Usage and Competitor Tracking
 Understanding user behavior and competitive intelligence.
 
@@ -265,6 +267,8 @@ Connecting to a vast ecosystem of tools.
 How it works: Provides a deep integration with Zapier, acting as both a trigger and an action platform. Users can configure Zaps to automatically send data from Churn Analytics Pro (e.g., a high churn score, a competitor visit) to thousands of other apps, or to receive data from other apps to update contacts or metrics within Churn Analytics Pro.
 
 Relevance: Maximizes the platform's utility by enabling seamless data flow and automation across virtually any other business tool a user might employ.
+
+![dashboard churn analytics](dashboard2.png "Churn Analytics")
 
 # 9.6 Automated Win-back Campaigns
 Proactive engagement to re-engage at-risk and churned customers.
