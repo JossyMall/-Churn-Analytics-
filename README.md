@@ -1,5 +1,7 @@
 ![landing churn analytics](6.png "Churn Analytics Landing page")
-# -Churn-Analytics- 
+# -Churn-Analytics- CHURN ANALYTICS IS A VERY BOLD AND AMBITIOUS PROJECT. IT IS A PROJECT THAT HAS THE CABABILITY TO EARN UP TO A MILLION USD IN REVENUE EVERY MONTH AND RAPIDLY BECOME A UNICORN WHEN DEPLOYED. (THIS IS BASED ON RESEARCH AND AI ANALYSIS THAT STUDIED EXISTING COMPETITORS WHO DO NOT EVEN HAVE A QUARTER OF THE FEATURES WE ARE INTEGRATING INTO CHURN ANALYTICS)
+
+
 SaaS software built with pure PHP, Javascript and SQL to launch an AI powered churn analysis, retention and win-back SaaS platform. Churn Analytics is a multi-million dollar worth of research and coding.
 
  ## (This software is not ready for production, please contact me on livejossymall@gmail.com or +79644165577 on whatsapp for clarifications, installation and custom development)
@@ -189,6 +191,8 @@ AI Reports Display (reports.php): Logged-in users view AI churn reports and prob
 
 Relevance: Transforms raw data into actionable intelligence, enabling proactive intervention to retain customers before they churn, directly impacting revenue.
 
+![Notifications churn analytics](notifications.png "Notifications Churn Analytics")
+
 # 7.3 Real-Time Churn Alerts
 Instant notifications for high-risk users.
 
@@ -284,6 +288,8 @@ Deepening insights and enabling seamless internal communication.
 How it works: A dedicated page visualizes customer journeys through the product/service with graphical analysis. This aims to show key milestones, common drop-off points, and how users move through different stages of engagement or subscription.
 
 Relevance: Provides a clear, visual understanding of customer lifecycle and potential leak points, informing product development and marketing strategies.
+
+![cohorts churn analytics](cohorts.png "Cohorts Churn Analytics")
 
 # 10.2 Niche Categorization and Performance (niches.php, admin/niches.php)
 How it works: Users assign a niche (e.g., "SaaS Platforms", "E-commerce") to each Stream they create. An admin panel manages these predefined niches. The niches.php page then aggregates and displays performance metrics for all streams within each niche (average churn rate, acquisition cost, contacts acquisition rate, revenue per user). Niches are categorized as "Top Performing," "Underperforming," "Emerging," or "Declining" based on dynamically calculated criteria and historical trends visualized in line graphs.
