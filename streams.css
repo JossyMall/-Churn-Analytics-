@@ -1,0 +1,450 @@
+.streams-container {
+    background: #ffffff00;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.streams-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-stream-btn {
+    background: #3ac3b8;
+    color: #000000;
+    font-weight: 900;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.new-stream-btn:hover {
+    background: #2eafa6;
+}
+
+.new-stream-btn:focus {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.alert.error {
+    background: #000000;
+    color: #00ff05;
+}
+
+.alert.success {
+    background: #e6f7ee;
+    color: #28a745;
+}
+
+.alert.info {
+    background: #e6f7fd;
+    color: #0d6efd;
+}
+
+.streams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.stream-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.stream-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stream-card-header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.stream-card-header h3 {
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.stream-niche {
+    display: inline-block;
+    background: #e9ecef;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    color: #495057;
+}
+
+.stream-card-body {
+    padding: 15px;
+}
+
+.stream-card-body p {
+    margin: 0 0 15px 0;
+    color: #666;
+}
+
+.stream-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.stat {
+    background: #0d6bfd1a;
+    padding: 12px;
+    border-radius: 6px;
+    border-left: 3px solid var(--primary-color, #3ac3b8);
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.stat-value {
+    font-weight: 600;
+    color: #343a40;
+    word-break: break-all;
+}
+
+.stream-card-footer {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    background: #f9f9f9;
+}
+
+.action-btn {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    background: #f0f0f0;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+    background: #e0e0e0;
+}
+
+.delete-form {
+    margin-left: 10px;
+}
+
+.delete-btn {
+    padding: 8px 15px;
+    background: #f8e6e6;
+    color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+    background: #f1c9c9;
+}
+
+.no-streams {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f9f900;
+    border-radius: 8px;
+}
+
+/* Modal styles - IMPROVED FOR ACCESSIBILITY */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    overflow-y: auto; /* Enable scrolling on the modal itself */
+}
+
+.modal-content {
+    background: white;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    position: relative;
+    max-height: 90vh; /* Limit height to viewport height */
+}
+
+.modal-content form {
+    overflow-y: auto; /* Enable scrolling on the form */
+    max-height: calc(90vh - 80px); /* Subtract header height + padding */
+    padding-right: 10px;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #3ac3b8 #f5f5f5; /* For Firefox */
+}
+
+/* Customized scrollbar for Webkit browsers */
+.modal-content form::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content form::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+
+.modal-content form::-webkit-scrollbar-thumb {
+    background: #3ac3b8;
+    border-radius: 4px;
+}
+
+.modal-content form::-webkit-scrollbar-thumb:hover {
+    background: #2eafa6;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.2s;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.close:hover {
+    color: #333;
+    background: #f0f0f0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #3ac3b8;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(58, 195, 184, 0.2);
+}
+
+.form-group input[type="color"] {
+    width: 50px;
+    height: 40px;
+    padding: 2px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #3ac3b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.submit-btn:hover {
+    background: #2eafa6;
+}
+
+.submit-btn:focus {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+}
+
+/* Share stream styles */
+.share-stream-section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f5f9ff;
+    border-radius: 8px;
+    border: 1px solid #e1ebfa;
+}
+
+.share-stream-section h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #4a5568;
+    font-size: 1.1rem;
+}
+
+.share-form {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.share-form button {
+    background: #5a8dee;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+}
+
+.share-form button:hover {
+    background: #4a7ad9;
+}
+
+/* Stream Cover Image */
+.stream-cover-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stream-cover-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Currency Input Groups */
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-group select {
+    flex: 0 0 auto;
+    width: 80px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Form Enhancements */
+.form-group small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+/* File Upload Styling */
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    background: #f8f9fa;
+    transition: border-color 0.2s;
+}
+
+input[type="file"]:hover,
+input[type="file"]:focus {
+    border-color: #3ac3b8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .stream-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .input-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .input-group select {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+}
+
