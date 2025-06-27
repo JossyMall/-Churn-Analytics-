@@ -13,6 +13,8 @@ Churn Analytics Pro isn't just another SaaS; it's an AI-powered intelligence pla
 
 This project has the potential to be a million-dollar idea because it solves a universal, high-value problem with an innovative, data-driven solution. Imagine a SaaS company losing 5% of its customers monthly; that's 60% annually! A platform that can reduce this churn by even a few percentage points directly translates into millions of dollars saved and generated. For high-ticket coaches and premium memberships, where each client represents significant recurring revenue, preventing even one churn can mean thousands saved per month.
 
+![Admin dashboard churn analytics](2.png "Churn Analytics")
+
 # 💡 Real-world examples of who desperately needs this:
 A fast-growing online course platform: They acquire thousands of students but struggle with course completion and subscription renewals after the initial few months. Churn Analytics Pro can pinpoint students disengaging, identify underutilized course features, and trigger personalized nudges or offers to re-engage them, turning potential dropouts into lifelong learners.
 
@@ -23,6 +25,8 @@ A high-ticket executive coaching program: Each client pays tens of thousands of 
 A premium subscription box service: They need to keep members excited. By tracking product interaction, survey responses, and feedback, the platform can predict who might cancel next month and automate a targeted discount or a personalized gift to win them back.
 
 In essence, Churn Analytics Pro acts as a predictive early warning system and an automated retention assistant, moving businesses from reactive damage control to proactive, intelligent customer success. This direct impact on the bottom line makes it not just relevant, but indispensable for modern digital businesses.
+
+![Admin dashboard churn analytics](3.png "Niche Analysis Churn Analytics")
 
 # 🏗️ Chapter 1: Core System Architecture and User Management
 The foundation of Churn Analytics Pro is built on a robust LAMP stack (Linux, Apache, MySQL, PHP), designed for scalability and maintainability. All database interactions are centralized and secured, ensuring reliable user management and data handling.
