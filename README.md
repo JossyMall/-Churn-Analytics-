@@ -3,6 +3,8 @@ SaaS software built with pure PHP, Javascript and SQL to launch an AI powered ch
 
  ## (This software is not ready for production, please contact me on livejossymall@gmail.com or +79644165577 on whatsapp for clarifications, installation and custom development)
 
+(Screenshot 2025-06-27 200319.png)
+
 # 🚀 Churn Analytics Pro: Comprehensive Project Documentation
 ✨ Abstract: Revolutionizing Customer Retention in the Digital Age
 In today's fiercely competitive digital landscape, customer acquisition costs are soaring, making customer retention the bedrock of sustainable business growth. Churn, the rate at which customers discontinue their service or subscription, is a silent killer of revenue and profitability for countless businesses. Yet, many companies struggle to accurately predict, understand, and effectively combat it.
