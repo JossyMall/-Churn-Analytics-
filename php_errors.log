@@ -1,3 +1,0 @@
-[13-Jun-2025 23:39:39 Europe/Moscow] Database error in niches.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'field list'
-[13-Jun-2025 23:39:42 Europe/Moscow] Database error in niches.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'field list'
-[13-Jun-2025 23:39:57 Europe/Moscow] Database error in niches.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created_at' in 'field list'
