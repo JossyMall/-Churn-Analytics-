@@ -1,3 +1,4 @@
+![landing churn analytics](6.png "Churn Analytics Landing page")
 # -Churn-Analytics- 
 SaaS software built with pure PHP, Javascript and SQL to launch an AI powered churn analysis, retention and win-back SaaS platform. Churn Analytics is a multi-million dollar worth of research and coding.
 
@@ -30,6 +31,8 @@ In essence, Churn Analytics Pro acts as a predictive early warning system and an
 
 # 🏗️ Chapter 1: Core System Architecture and User Management
 The foundation of Churn Analytics Pro is built on a robust LAMP stack (Linux, Apache, MySQL, PHP), designed for scalability and maintainability. All database interactions are centralized and secured, ensuring reliable user management and data handling.
+
+![API Feature](4.png "Churn Analytics API feature")
 
 # 1.1 User Authentication and Authorization
 Our system provides secure user authentication, allowing users to register, log in, and manage their profiles. Administrators have elevated privileges to manage all user accounts.
@@ -246,6 +249,8 @@ Integrating support data for a holistic churn view.
 How it works: Through integrations with Zendesk, Freshdesk, and other major helpdesk platforms, users can automatically import their third-party contacts' support tickets into Churn Analytics Pro. This data is recorded in the helpdesk_tickets and helpdesk_responses tables, providing insights into support interactions.
 
 Relevance: Consolidates all customer interaction data, allowing for a 360-degree view of customer health and helping identify support-related churn triggers.
+
+![Notes churn analytics](5.png "Churn Analytics")
 
 # 9.4 Revenue Impact and Root-Cause Detection
 Quantifying churn and understanding why it happens.
